@@ -1,0 +1,58 @@
+/* img{
+  opacity:0.3 ;
+}
+img:hover{
+  opacity: 1;
+  height:200px;
+  border-radius: 250px;
+  border: red solid;
+} */
+/* p:hover{
+  font-size: 25px;
+  color:red;
+} */
+button{
+  color:red;
+  background-color:#27e30e;
+  border-radius: 15px;
+  border: 2px red solid;
+}
+button:hover{
+    color:red;
+    background-color:#4cd63a;
+}
+a:visited
+{
+  color:red;
+}
+a:hover{
+  color:blue;
+}
+input:optional{
+  background-color: yellow;
+}
+input:required{
+  border: 5px red solid;
+}
+input[type='email']:valid{
+  background-color: blue;
+}
+input:read-only
+{
+  background-color: green;
+}
+input:read-write
+{
+  background-color: pink;
+}
+input:checked{
+  height:10px;
+}
+input:focus{
+  background-color: yellow;
+}
+p:empty{
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+}

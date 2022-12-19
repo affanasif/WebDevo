@@ -1,0 +1,20 @@
+#tp{
+
+  height: 120px;
+  width: 120px;
+  background: red;
+  border-radius: 125px;
+  background-image: conic-gradient(yellow,red,blue,orange);
+}
+h1
+{
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px 2px red,4px 4px 4px green,6px 6px 6px yellow ;
+}
+#aa
+{
+  height: 100px;
+  width: 100px;
+  color: red;
+}
