@@ -1,0 +1,74 @@
+h1                         12 lines of code
+{
+  border-top-color: red;
+  border-top-width: 5px;
+  border-top-style: dashed;
+
+  border-right-color: red;
+  border-right-width: 5px;
+  border-right-style: dashed;
+
+  border-bottom-color: red;
+  border-bottom-width: 5px;
+  border-bottom-style: dashed;
+
+  border-left-color: red;
+  border-left-width: 5px;
+  border-left-style: dashed;
+}
+
+
+
+
+
+====================================3 lines of code
+
+h1
+{
+  border-color: green;
+  border-width: 6px;
+  border-style: solid;
+
+}
+=====================================single line code
+
+
+border:5px red dotted;
+
+there is no order , anyway u can write
+
+border:5px red dotted;
+border:green dotted 12px;
+border:solid 25px orange ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

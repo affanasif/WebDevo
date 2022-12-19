@@ -1,0 +1,28 @@
+/* p::first-line
+{
+  background: yellow;
+  font-variant: small-caps;
+
+}
+p::first-letter
+{
+  font-size: 55px;
+  color:red;
+
+} */
+/* Before and After CSS */
+/* p::before
+{
+  content: url('logo.png')
+}
+
+p::after
+{
+  content: ".."
+} */
+
+/* Selection */
+p::selection
+{
+  background-color: red;
+}

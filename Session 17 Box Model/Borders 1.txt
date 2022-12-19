@@ -1,0 +1,15 @@
+h1{
+  border-top-color: red;
+  border-top-widht: 25px;
+  border-top-style: dashed;
+  border-right-color: green;
+  border-right-widht: 15px;
+  border-right-style: solid;
+  border-bottom-color: orange;
+  border-bottom-widht: 95px;
+  border-bottom-style: dotted;
+  border-left-color: blue;
+  border-left-widht: 55px;
+  border-left-style: dashed;
+
+}
