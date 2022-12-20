@@ -1,10 +1,18 @@
 p{
-  color:red;
+  color:white;
 }
 body{
-  background: grey;
-}
+  background: white(136, 133, 133)}
 h1
 {
-  color:blue;
+
+}
+
+.title
+{
+  color: antiquewhite;
+}
+.address
+{
+  color: antiquewhite;
 }

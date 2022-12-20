@@ -1,32 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <title>Muffakham Jah College</title>
   <link rel="stylesheet" href="style.css">
   </head>
 <body>
-<center>  <h1>Muffakham Jah Techno College</h1>
-  V:Dilsukhnagar Md:SarrorNagar D:RR Redaay ,500082 <br>
-  <marquee  style="color:red;" behavior="alternate" >Schools will reopen on 10-10-2022 after Dussehra Holidays</marquee>
-  <hr>
-  <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp
-  <a href="about.html">About Us</a> &nbsp;&nbsp;&nbsp;&nbsp
-  <a href="services.html">Services</a> &nbsp;&nbsp;&nbsp;&nbsp
-  <a href="buses.html">Buses Info</a> &nbsp;&nbsp;&nbsp;&nbsp
-  <a href="fees.html">Fee Details</a> &nbsp;&nbsp;&nbsp;&nbsp
-  <a href="contact.html">Contact Us</a> &nbsp;&nbsp;&nbsp;&nbsp
-  <hr>
-  <marquee scrollamount="20"> <img src="college.jpg" alt="college pic" width="50%">
-<img src="college.jpg" alt="college pic" width="50%">
-<img src="college.jpg" alt="college pic" width="50%">
-</marquee>
-</center> <hr>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, ducimus iste, obcaecati necessitatibus, dolor quas illum assumenda hic quaerat amet nemo similique commodi repudiandae odio voluptatem. Architecto, veniam reprehenderit dignissimos.25</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda est tempora, nobis quis maiores nam deserunt consequatur, eum error modi ad! Obcaecati laudantium tempora nulla perspiciatis quasi, numquam expedita ipsum!25</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum aspernatur voluptates, sunt fugit, natus ipsum qui architecto tenetur quisquam doloremque mollitia recusandae ratione molestiae modi. Sapiente eaque dolores debitis veritatis!25</p>
+ <div class="text-center bg-primary"> <button><h1 class="title text text-warning">Muffakham Jah Techno College</h1></button>
+  <h6 class="address">Mount Pleasant, 8-2-249, Road No. 3, Banjara Hills, Hyderabad, Telangana 500034<h6> </div>
+
+  <!-- <a href="index.html" class="btn btn-warning">Home</a> &nbsp;&nbsp;&nbsp;&nbsp
+  <a href="about.html"  class="btn btn-warning">About Us</a> &nbsp;&nbsp;&nbsp;&nbsp
+  <a href="services.html" class="btn btn-warning">Services</a> &nbsp;&nbsp;&nbsp;&nbsp
+  <a href="buses.html" class="btn btn-warning">Buses Info</a> &nbsp;&nbsp;&nbsp;&nbsp
+  <a href="fees.html" class="btn btn-warning">Fee Details</a> &nbsp;&nbsp;&nbsp;&nbsp
+  <a href="contact.html" class="btn btn-warning">Contact Us</a> &nbsp;&nbsp;&nbsp;&nbsp -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="aa.jpeg" width="60px" alt=""> <h4 class="text text-primary" ></h4> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li><li class="nav-item">
+            <a class="nav-link" href="buses.html">Buses Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="fees.html">Fee Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          
+           
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="worshop.jpeg" class="d-block w-100 " alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="library.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Masjid.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div ><h3 class="text text-primary text-center">This is a demo website to access EITK, EVS notes and can be used for various purposes</h3></div>
+<div class="bg-primary text-center text-warning"><h5>This website is made by Affan Asif</h5></div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 </body>
 </html>
